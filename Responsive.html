@@ -3,6 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        .left{
+            float: left;
+            width: 20%;
+        }
+        .main{
+            float: left;
+            width: 60%;
+        }
+        .right{
+            float: left;
+            width: 20%;
+        }
+    </style>
     <title>Simply_A_Weeb</title>
     <header>
         <h1>Simply a Weeb</h1>
@@ -10,6 +27,7 @@
     </header>
 </head>
 <body>
+<div style="overflow: hidden;">
     <div class="left">
         <p>Anime</p>
         <p>Manga</p>
@@ -17,14 +35,41 @@
         <p>News</p>
         <p>Update</p>
     </div>
+
     <div class="main">
         <h3>One peice</h3>
         <p>Story revolves around Monkey D. Luffy and his Crew "Straw Hats" and his ambition to one day conquere the grand line and become Pirate king and find the treasure called "ONE PIECE".</p>
-        <img src="Tree.jpg" alt="This is an image">
+        <img style="width: 100%; height: 40vh;"
+        src="Tree.jpg" alt="This is an image">
         <h3>Naruto</h3>
         <p>Story revolves around Uzumaki Naruto and his Boyfriend Sasuke and his ambition to one day conquere the leaf village(konaha) and become "Hokage" and fighting Gods sometimes.</p>
-        <img src="Mountain.jpg" alt="This is an image">
+        <img style="width: 100%; height: 40vh;"
+        src="Mountain.jpg" alt="This is an image">
     </div>
+
+    <div class="right">
+        <h3>Episodes</h3>
+        <ol>
+            <li>Journey Begins! Monkey Emerges</li>
+            <li>Luffy meets Moss head</li>
+            <li>Luffy meets Big booba girl</li>
+            <li>Zeffs resolve! Prince Appears</li>
+            <li>God D. Ussop! is that you?</li>
+            <li>Zoro find hidden leaf village!!</li>
+        </ol>
+        <div>
+            <span>&lt;&lt;Prev</span>
+            <span>Page-1</span>
+            <span>Next&gt;&gt;</span>
+        </div>
+    </div>
+</div>
+    <footer>
+        <div>
+            Disclaimer:This web page is just a practice for me trying out @media and learning how to make web page responsive for different devices. All the content written on this page is just bullshit, So feel free to avoid it.
+        </div>
+    </footer>
+    
     
 </body>
 </html>
