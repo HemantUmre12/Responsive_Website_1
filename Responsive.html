@@ -77,6 +77,7 @@
             font: 20px/1.2 cursive;
         }
         .mover span{
+            font-size: medium;
             color: white;
             border-radius: 3px;
             font-style: normal;
@@ -87,6 +88,35 @@
         .left p:hover,.right li:hover,.mover span:hover{
             color:red;
             cursor: pointer;
+        }
+
+        /* Using @media for adding responsiveness */
+
+        @media screen and (max-width: 850px){
+            .left{
+                width: 23%;
+            }
+            .main{
+                width: 73%;
+            }
+            .right{
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+        }
+
+        @media screen and (max-width: 530px){
+            .left{
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            .main{
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
         }
         
     </style>
@@ -125,7 +155,7 @@
             <li>Zoro find hidden leaf village!!</li>
         </ol>
         <div class="mover"
-        style="display: flex; justify-content:space-between;"
+        style="display: flex; justify-content:space-evenly;"
         >
             <span>&lt;&lt;Prev</span>
             <span>Page-1</span>
